@@ -198,7 +198,6 @@ function drawCoinAnimated() {
                 const chosenIndex = freeIndexes[chosenFreeIndex];
                 const chosenAnimationNumber = chosenIndex + 1;
 
-                animationNumberElement.style.color = "rgb(128, 123, 123)";
                 animationNumberElement.innerText = String(chosenAnimationNumber);
             }
 
@@ -229,7 +228,6 @@ function drawCoinAnimated() {
 
             const chosenNumber = chosenIndex + 1;
 
-            animationNumberElement.style.color = "black";
             animationNumberElement.innerText = String(chosenNumber);
 
             drawnCoinHistory.push(nextDrawnCoins);

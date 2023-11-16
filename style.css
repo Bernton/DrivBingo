@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: #FEFF02;
 }
 
 .game-container {
@@ -37,7 +38,8 @@ body {
     border-radius: 50%;
     text-align: center;
     font-size: 32px;
-    border: 2px solid #666;
+    border: 2px solid black;
+    background: #FEFF02;
 }
 
 .coin-text {
@@ -53,16 +55,10 @@ body {
 }
 
 .coin-drawn .coin {
-    border-color: rgb(170, 9, 9);
-    background-color: lightcoral;
-}
-
-.coin-drawn .coin-text {
-    color: rgb(170, 9, 9);
+    background-color: #FFD902;
 }
 
 .animation-number {
     font-size: 50vh;
-    color: rgb(128, 123, 123);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
